@@ -24,6 +24,7 @@
   // scss-docs-end card-css-vars
 
   @extend .bg-dark;
+  @extend .text-light;
   position: relative;
   display: flex;
   flex-direction: column;

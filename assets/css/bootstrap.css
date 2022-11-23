@@ -5,6 +5,7 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap");
 /* line 1, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_root.scss */
 :root {
   --bs-blue: #0d6efd;
@@ -52,7 +53,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Sassy Frass", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -5144,67 +5145,67 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-border-radius);
 }
 
-/* line 39, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 40, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card > hr {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* line 44, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 45, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card > .list-group {
   border-top: inherit;
   border-bottom: inherit;
 }
 
-/* line 48, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 49, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card > .list-group:first-child {
   border-top-width: 0;
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 53, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 54, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card > .list-group:last-child {
   border-bottom-width: 0;
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 61, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 62, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
 }
 
-/* line 67, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 68, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
 
-/* line 75, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 76, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
 
-/* line 79, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 80, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-subtitle {
   margin-top: calc(-.5 * var(--bs-card-title-spacer-y));
   margin-bottom: 0;
 }
 
-/* line 84, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 85, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-text:last-child {
   margin-bottom: 0;
 }
 
-/* line 93, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 94, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-link + .card-link {
   margin-left: var(--bs-card-spacer-x);
 }
 
-/* line 102, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 103, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-header {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   margin-bottom: 0;
@@ -5213,12 +5214,12 @@ fieldset:disabled .btn {
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
-/* line 109, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 110, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
 
-/* line 114, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 115, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-footer {
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
@@ -5226,12 +5227,12 @@ fieldset:disabled .btn {
   border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
 
-/* line 120, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 121, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-footer:last-child {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
 
-/* line 130, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 131, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-header-tabs {
   margin-right: calc(-.5 * var(--bs-card-cap-padding-x));
   margin-bottom: calc(-1 * var(--bs-card-cap-padding-y));
@@ -5239,19 +5240,19 @@ fieldset:disabled .btn {
   border-bottom: 0;
 }
 
-/* line 136, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 137, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-header-tabs .nav-link.active {
   background-color: var(--bs-card-bg);
   border-bottom-color: var(--bs-card-bg);
 }
 
-/* line 142, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 143, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-header-pills {
   margin-right: calc(-.5 * var(--bs-card-cap-padding-x));
   margin-left: calc(-.5 * var(--bs-card-cap-padding-x));
 }
 
-/* line 148, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 149, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -5262,74 +5263,74 @@ fieldset:disabled .btn {
   border-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 158, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 159, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-img,
 .card-img-top,
 .card-img-bottom {
   width: 100%;
 }
 
-/* line 164, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 165, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-img,
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 169, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 170, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-img,
 .card-img-bottom {
   border-bottom-right-radius: var(--bs-card-inner-border-radius);
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
 }
 
-/* line 182, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+/* line 183, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
 
 @media (min-width: 576px) {
-  /* line 179, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 180, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group {
     display: flex;
     flex-flow: row wrap;
   }
-  /* line 191, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 192, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card {
     flex: 1 0 0%;
     margin-bottom: 0;
   }
-  /* line 196, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 197, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card + .card {
     margin-left: 0;
     border-left: 0;
   }
-  /* line 203, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 204, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
-  /* line 206, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 207, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:last-child) .card-img-top,
   .card-group > .card:not(:last-child) .card-header {
     border-top-right-radius: 0;
   }
-  /* line 211, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 212, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:last-child) .card-img-bottom,
   .card-group > .card:not(:last-child) .card-footer {
     border-bottom-right-radius: 0;
   }
-  /* line 218, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 219, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
-  /* line 221, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 222, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:first-child) .card-img-top,
   .card-group > .card:not(:first-child) .card-header {
     border-top-left-radius: 0;
   }
-  /* line 226, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
+  /* line 227, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/_card.scss */
   .card-group > .card:not(:first-child) .card-img-bottom,
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
@@ -9935,7 +9936,7 @@ fieldset:disabled .btn {
 }
 
 /* line 67, ../../../../../Desktop/desafío latam/DL-CSS-Avanzado-Desafio-4/assets/css/sass/mixins/_utilities.scss */
-.text-light {
+.text-light, .card {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
 }
