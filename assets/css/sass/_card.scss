@@ -23,6 +23,7 @@
   --#{$prefix}card-group-margin: #{$card-group-margin};
   // scss-docs-end card-css-vars
 
+  @extend .bg-dark;
   position: relative;
   display: flex;
   flex-direction: column;
